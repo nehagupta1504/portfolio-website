@@ -1,7 +1,13 @@
+import NavBar from "./components/header/header.component"
+import HomePage from "./components/home-page/homePage.component"
+
 function App() {
   return (
     <>
-      <h1 className='text-4xl font-bold text-red-50'>Hello World</h1>
+     <div className="flex w-full min-h-svh">
+      <NavBar />
+      <HomePage />
+     </div>
     </>
   )
 }
